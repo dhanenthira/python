@@ -1,0 +1,56 @@
+text = "hello world"
+
+print(text.capitalize())
+print("PYTHON".casefold())
+print("Hi".center(10))
+print("banana".count("a"))
+print("Hello".encode())
+print("file.txt".endswith(".txt"))
+print("A\tB".expandtabs(4))
+print("hello world".find("world"))
+print("Hello {}".format("Asha"))
+
+data = {"name": "Asha"}
+print("Hello {name}".format_map(data))
+
+print("apple".index("p"))
+print("abc123".isalnum())
+print("Python".isalpha())
+print("Hello".isascii())
+print("123".isdecimal())
+print("456".isdigit())
+print("my_name".isidentifier())
+print("hello".islower())
+print("Ⅻ".isnumeric())
+print("Hello!".isprintable())
+print("   ".isspace())
+print("Hello World".istitle())
+print("HELLO".isupper())
+
+print(", ".join(["red", "blue", "green"]))
+print("Hi".ljust(8))
+print("PYTHON".lower())
+print("   hello".lstrip())
+
+table = str.maketrans("a", "@")
+print("name=Ravi".partition("="))
+print("cat is cute".replace("cat", "dog"))
+print("banana".rfind("a"))
+print("banana".rindex("a"))
+print("Hi".rjust(8))
+print("one-two-three".rpartition("-"))
+print("a,b,c,d".rsplit(",", 1))
+print("hello   ".rstrip())
+print("red blue green".split())
+print("one\ntwo\nthree".splitlines())
+print("Python".startswith("Py"))
+print("  hello  ".strip())
+print("Hello WORLD".swapcase())
+print("hello world".title())
+print("apple".translate(table))
+print("python".upper())
+print("25".zfill(5))
+
+
+
+print("A\tB".expandtabs(4))

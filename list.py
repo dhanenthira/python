@@ -25,3 +25,10 @@ x = 3+5j
 y = 5j
 z = -5j
 print(x)
+
+age = 36
+txt = "My name is John, I am {age}"
+print(txt)
+
+a=f"dhane{age}"
+print(a)
