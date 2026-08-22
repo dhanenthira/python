@@ -37,3 +37,9 @@ print(x)
 num=("1","4","3","3")
 x=num.index("4")
 print(x)
+
+fruits = {"apple", "banana", "cherry"}
+
+fruits.add("orange")
+
+print(fruits)
