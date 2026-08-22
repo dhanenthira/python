@@ -29,6 +29,7 @@ for i in range(len(name)):
     print(name[i])
     
 #count
+print("count")
 num=("1","4","3","3")
 x=num.count("3")
 print(x)
