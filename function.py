@@ -49,4 +49,34 @@ def name(fun):
 def move():
     print("hello world")
 
-move()
+move()  
+
+
+def my_name(fun):
+    def cap():
+        return fun().upper()
+    return cap
+@my_name
+def name():
+    return "hello"
+    
+@my_name
+def clas():
+    return "cse"
+    
+print(clas())
+print(name())
+
+def name(fun):
+    def call():
+        print("my name is :")
+        fun()
+        print("this is my name ")
+    return call
+    
+@name
+def my():
+    print("dhane")
+    
+my()
+    
