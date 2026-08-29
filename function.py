@@ -81,16 +81,29 @@
 # my()
     
     
-def dhane(dhane):
-    return dhane+10
+# def dhane(dhane):
+#     return dhane+10
 
-print(dhane(10))
+# print(dhane(10))
 
 
-def len():
-    return "welcome to my channel"
+# def len():
+#     return "welcome to my channel"
 
-dh=len()
-print(dh)
+# dh=len()
+# print(dh)
 
+
+# def dhane():
+    
+    
+    
+def add(a,b):
+    return a+b
+x=int(input())
+y=int(input())
+result=add(x,y)
+print(result)
+
+    
 
