@@ -6,4 +6,7 @@ def p (text):
         print("not palindrom")
 p(input("enter the words :"))
     
-    
+def rev():
+    n=input("enter the word of Reverse:")
+    print(n[::-1])
+rev()
