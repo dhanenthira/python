@@ -1,34 +1,45 @@
-a=[1,2,3,4,5]
-print(a)
-#List Length
-b=["dhane","karu","kirthi"]
-print(len(b))
+# a=[1,2,3,4,5]
+# print(a)
+# #List Length
+# b=["dhane","karu","kirthi"]
+# print(len(b))
 
 
 
-print(bool("111111115"))
+# print(bool("111111115"))
 
-print(10>9)
+# print(10>9)
 
-print({"name":"dhane"})
-age = 36
-#This will produce an error:
-for i in range(2):
-    print(i)
+# print({"name":"dhane"})
+# age = 36
+# #This will produce an error:
+# for i in range(2):
+#     print(i)
     
-text = "Hello"
-data = text.encode()
+# text = "Hello"
+# data = text.encode()
 
-print(data)
+# print(data)
 
-x = 3+5j
-y = 5j
-z = -5j
+# x = 3+5j
+# y = 5j
+# z = -5j
+# print(x)
+
+# age = 36
+# txt = "My name is John, I am {age}"
+# print(txt)
+
+# a=f"dhane{age}"
+# print(a)
+
+
+
+x = []
+n = int(input())
+
+for i in range(1,1+n):
+    word = input()
+    x.append(word)
+
 print(x)
-
-age = 36
-txt = "My name is John, I am {age}"
-print(txt)
-
-a=f"dhane{age}"
-print(a)
