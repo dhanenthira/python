@@ -1,0 +1,15 @@
+
+// FSTRING
+name = "Dhanenthira"
+age = 21
+
+print(f"My name is {name} and I am {age} years old")
+
+
+name1 = "Python"
+
+print(name[0])       
+print(name[-1])      
+print(name.upper())
+print(name.lower())  
+print(len(name))    
